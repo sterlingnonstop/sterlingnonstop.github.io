@@ -37,13 +37,18 @@
         <h1>hi!</h1>
     </header>
     <nav class="bg-warning sticky-top">  test it </nav>
-    <div>
+    <div id="main-container" class="container">
             <h2>iframe auto fit content</h2>
-            <iframe id="mains" name="mains" class="iframe-block" src="ifr_page_1.html" scrolling="auto" frameborder="0"></iframe>    
+            <iframe id="glu" onload="resize_iframe()" name="mains" class="iframe-block" src="ifr_page_3.html" style="border:1px solid red;"></iframe>    
     </div>
     <aside></aside>
     <footer>
         footer
     </footer>
+    <script>
+        $(document).ready(function(){
+            //resize_iframe();
+        });
+    </script>
 </body>
 </html>
