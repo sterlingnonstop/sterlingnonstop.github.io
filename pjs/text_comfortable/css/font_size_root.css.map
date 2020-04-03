@@ -1,0 +1,9 @@
+{
+    "version": 3,
+    "mappings": "AAAA,AAAA,IAAI,CAAA;EACA,SAAS,EAAC,IAAI;CACjB",
+    "sources": [
+        "font_size_root.scss"
+    ],
+    "names": [],
+    "file": "font_size_root.css"
+}

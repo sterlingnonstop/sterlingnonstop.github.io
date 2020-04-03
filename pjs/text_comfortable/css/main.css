@@ -1,0 +1,45 @@
+@import url("https://fonts.googleapis.com/css2?family=Noto+Sans+TC:wght@300;400&display=swap");
+html {
+  font-size: 100%;
+}
+
+.cus-line-height-15 {
+  line-height: 1.8em;
+}
+
+.normal-zh {
+  font-family: Arial, 'Microsoft JhengHei', Helvetica, sans-serif;
+  font-weight: 400;
+}
+
+table {
+  width: 100%;
+  max-width: 100%;
+  font-size: .8rem;
+}
+
+table thead tr {
+  background-color: gold;
+}
+
+table thead tr th {
+  padding: .45em;
+}
+
+table tbody tr td {
+  padding: .45em;
+}
+
+table tbody tr:nth-child(even) {
+  background-color: #f5f5f5;
+}
+
+table tbody tr:hover {
+  background-color: #f5f5f5;
+  font-weight: bold;
+  -webkit-transition-property: background-color, color,font-weight;
+  transition-property: background-color, color,font-weight;
+  -webkit-transition-duration: .2s;
+          transition-duration: .2s;
+}
+/*# sourceMappingURL=main.css.map */
