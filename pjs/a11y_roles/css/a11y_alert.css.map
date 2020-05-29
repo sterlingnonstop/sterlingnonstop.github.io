@@ -1,0 +1,9 @@
+{
+    "version": 3,
+    "mappings": "CAAA,AAAA,AAAA,IAAC,CAAD,KAAC,AAAA,EAAY;EACT,KAAK,EAAC,GAAG;EAKT,MAAM,EAAC,eAAe;EACtB,gBAAgB,EAAE,OAAO;EACzB,OAAO,EAAC,IAAI;CASf;;CAjBD,AAAA,AASI,IATH,CAAD,KAAC,AAAA,CASI,MAAM,CAAA;EACH,OAAO,EAAC,CAAC;EACT,MAAM,EAAC,CAAC;EACR,OAAO,EAAC,IAAI;CACf",
+    "sources": [
+        "a11y_alert.scss"
+    ],
+    "names": [],
+    "file": "a11y_alert.css"
+}

@@ -21,7 +21,14 @@ function setIframeHeight(id) {
     //console.log(ctn);
 }
 
-function resize_iframe()
+function resize_iframe(evt)
 {
-    setIframeHeight('glu');
+    if (!evt || !evt.id){
+        setIframeHeight('glu');
+    }else{
+        try{
+            //console.log(evt.id);
+            setIframeHeight(evt.id);
+        }catch{}
+    }
 }
